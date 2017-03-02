@@ -13,7 +13,7 @@ const handleFlag = async ({ params: { countryCode }, res }) => {
   }
 }
 
-const handleNone = (() => 'You mustly supply a country code.')
+const handleNone = (() => 'You mustly supply a country code.\nGET /:countryCode')
 
 const handleList = async ({ res }) => {
   try {
