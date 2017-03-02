@@ -12,4 +12,7 @@ GET /:countryCode
 # Example
 ![](http://hu.md/6Wde/dzFOZXLX.gif)
 
+# Contributing
+Clone the repo, `yarn install`, `yarn run dev`, change what you'd like and make a pull request ✌️
+
 [![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/hugomd/micro-flags)
