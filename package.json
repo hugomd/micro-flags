@@ -1,0 +1,31 @@
+{
+  "name": "micro-flags",
+  "version": "1.0.0",
+  "description": "A microservice for getting a flag icon by country code",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "nodemon --exec 'micro .'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugomd/micro-flags.git"
+  },
+  "keywords": [
+    "micro",
+    "microservice",
+    "flag",
+    "icons"
+  ],
+  "author": "Hugo Muller-Downing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugomd/micro-flags/issues"
+  },
+  "homepage": "https://github.com/hugomd/micro-flags#readme",
+  "dependencies": {
+    "fs-promise": "^2.0.0",
+    "micro": "^7.0.6",
+    "micro-api": "^0.1.1"
+  }
+}
