@@ -3,6 +3,12 @@ A microservice for getting a flag icon by country code.
 
 Flag icons courtesy of [famfamfam](http://www.famfamfam.com/lab/icons/flags/).
 
+# Usage
+```
+GET /flags
+GET /:countryCode
+```
+
 # Example
 ![](http://hu.md/6Wde/dzFOZXLX.gif)
 
