@@ -15,8 +15,9 @@ const handleFlag = async ({ params: { countryCode }, res }) => {
 
 const handleNone = (() => 'You mustly supply a country code.')
 
-const handleList = async () => {
+const handleList = async ({ res }) => {
   try {
+    res.setHeader('Content-Type', 'application/json')
     const list = await fs.readFile('./countries.json')
     return list
   } catch (err) {
