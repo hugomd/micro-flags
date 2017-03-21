@@ -7,6 +7,9 @@
     "start": "micro",
     "dev": "nodemon --exec 'micro .'"
   },
+  "now": {
+    "alias": "flags.now.sh"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hugomd/micro-flags.git"
