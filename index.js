@@ -1,8 +1,18 @@
 const microApi = require('micro-api')
 const fs = require('fs-promise')
+const aliases = require('./data/aliases')
+
+const mapAlias = countryCode => {
+  let code = countryCode.toLowerCase()
+  const alias = aliases[code]
+  if (alias) {
+    code = alias.code.toLowerCase()
+  }
+  return code
+}
 
 const handleFlag = async ({ params: { countryCode }, res }) => {
-  countryCode = countryCode.toLowerCase()
+  countryCode = mapAlias(countryCode)
   try {
     const flag = await fs.readFile(`./flags/${countryCode}.png`)
     res.setHeader('Content-Type', 'image/png')

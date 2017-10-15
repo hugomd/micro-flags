@@ -1,0 +1,30 @@
+{
+  "bv": {
+    "code": "no",
+    "reason": "Island belongs to Norway"
+  },
+  "gf": {
+    "code": "fr",
+    "reason": "French Overseas Region, shares the same flag"
+  },
+  "gp": {
+    "code": "fr",
+    "reason": "French Overseas Region, officially shares the same flag"
+  },
+  "hm": {
+    "code": "au",
+    "reason": "Australian external territory"
+  },
+  "sj": {
+    "code": "no",
+    "reason": "Two Arctic Territories of Norway"
+  },
+  "uk": {
+    "code": "gb",
+    "reason": "Alternative ISO-3166-1 code for GB"
+  },
+  "um": {
+    "code": "us",
+    "reason": "United States Minor Outlying Islands"
+  }
+}
