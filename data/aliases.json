@@ -1,7 +1,23 @@
 {
+  "ac": {
+    "code": "gb",
+    "reason": "Ascension Island, part of the British Overseas Territories"
+  },
   "bv": {
     "code": "no",
     "reason": "Island belongs to Norway"
+  },
+  "bu": {
+    "code": "mm",
+    "reason": "Previous code for MM (Myanmar)"
+  },
+  "cp": {
+    "code": "fr",
+    "reason": "Clipperton Island, part of France"
+  },
+  "dg": {
+    "code": "gb",
+    "reason": "Diego Garcia, part of the British Overseas Territories"
   },
   "gf": {
     "code": "fr",
@@ -19,6 +35,14 @@
     "code": "no",
     "reason": "Two Arctic Territories of Norway"
   },
+  "ta": {
+    "code": "gb",
+    "reason": "Tristan da Cunha, part of the British Overseas Territories"
+  },
+  "tp": {
+    "code": "tl",
+    "reason": "Previous code for TL (Timor-Leste)"
+  },
   "uk": {
     "code": "gb",
     "reason": "Alternative ISO-3166-1 code for GB"
@@ -26,5 +50,9 @@
   "um": {
     "code": "us",
     "reason": "United States Minor Outlying Islands"
-  }
+  },
+  "zr": {
+    "code": "cd",
+    "reason": "Previous code for CD (Congo, the Democratic Republic of the)"
+  },
 }
