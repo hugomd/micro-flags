@@ -28,7 +28,7 @@ const handleNone = (() => 'You mustly supply a country code.\nGET /:countryCode'
 const handleList = async ({ res }) => {
   try {
     res.setHeader('Content-Type', 'application/json')
-    const list = await fs.readFile('./flags.json')
+    const list = await fs.readFile('./data/flags.json')
     return list
   } catch (err) {
     // Autos to 404
